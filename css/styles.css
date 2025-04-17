@@ -1,0 +1,100 @@
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    padding: 30px;
+  background-image: url("../Fotos/Trabajo.png");
+  }
+  
+  form input, form button {
+    display: block;
+    margin: 10px auto;
+    padding: 10px;
+  }
+  
+  button {
+    cursor: pointer;
+  }
+  
+  .fondoinicio{
+    background-image: url("../Fotos/Inicio.jpeg");;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    max-width: 400px;
+    height: 270px;
+    margin: 0 auto;
+  }
+  .iz{
+    width: 50%;
+    float: left;
+    background-color: rgba(0, 0, 0, 0.904);
+    color: aliceblue;
+  }
+  .der{
+    width: 50%;
+    float: right;
+    background-color:  rgba(0, 0, 0, 0.904);
+    color: aliceblue;
+ }
+ .fondoregistro{
+  background-image: url("../Fotos/crear.jpeg");
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  max-width: 400px;
+  height: 350px;
+  margin: 0 auto;
+ }
+ .fondobienvenido{
+  background-image: url("../Fotos/imagenbv.jpeg");
+  padding: 20px;
+  border-radius: 50px;
+  border-color: aliceblue;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  max-width: 1162px;
+  height: 350px;
+  margin: 0 auto;
+  color: aliceblue;
+ }
+ .botonbienvenido{
+  background-color: rgba(0, 0, 0, 0.904);
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  color: aliceblue;
+ margin-top: 100px;
+ 
+ }
+
+.fondodashboard{
+  background-image: url("../Fotos/panelusuario.jpeg");
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(235, 7, 7, 0.1);
+  max-width: 400px;
+  height: 680px;
+  margin: 0 auto;
+ }
+
+ .foto-perfil {
+  background-image: url("../Fotos/fotoperfil.jpeg");
+  background-size: cover;
+  background-position: center;
+  width: 150px;
+  height: 150px;
+  border-radius: 50%; 
+  border: 2px solid #ccc;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0 auto;
+}
+.foto-perfil:hover {
+  transform: scale(1.1); 
+}
+.nt {
+  background-color: #05050586;
+  width: 30%;
+  justify-content: center;
+  align-items: center;
+  margin: 0 auto;
+
+}
